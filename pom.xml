@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <jbehave.core.version>4.1.3</jbehave.core.version>
+        <jbehave.core.version>4.3.5</jbehave.core.version>
         <jbehave.web.selenium.version>3.6-beta-2</jbehave.web.selenium.version>
         <jbehave.site.resources.version>3.1.1</jbehave.site.resources.version>
         <maven.compiler.plugin.version>3.7.0</maven.compiler.plugin.version>

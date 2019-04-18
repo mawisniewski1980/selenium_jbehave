@@ -22,27 +22,27 @@ public class WaitsUtils {
     }
 
     public WaitsUtils waitForVisibilityOfElement(WebElement element) {
-        this.getWaits().until(ExpectedConditions.visibilityOf(element));
+        //waits.until(ExpectedConditions.visibilityOf(element));
         return this;
     }
 
     public WaitsUtils waitForVisibilityOfElements(List<WebElement> elements) {
-        this.getWaits().until(ExpectedConditions.visibilityOfAllElements(elements));
+        //waits.until(ExpectedConditions.visibilityOfAllElements(elements));
         return this;
     }
 
     public WaitsUtils waitForVisibilityOfElement(By locator) {
-        this.getWaits().until(ExpectedConditions.visibilityOfElementLocated(locator));
+        //waits.until(ExpectedConditions.visibilityOfElementLocated(locator));
         return this;
     }
 
     public WaitsUtils waitForVisibilityOfElements(By locator) {
-        this.getWaits().until(ExpectedConditions.visibilityOfAllElementsLocatedBy(locator));
+        //waits.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(locator));
         return this;
     }
 
     public WaitsUtils waitForLoad() {
-        this.waits.until((ExpectedCondition<Boolean>) webDriver -> ((JavascriptExecutor) webDriver).executeScript("return document.readyState").equals("complete"));
+        //this.waits.until((ExpectedCondition<Boolean>) webDriver -> ((JavascriptExecutor) webDriver).executeScript("return document.readyState").equals("complete"));
         return this;
     }
 
